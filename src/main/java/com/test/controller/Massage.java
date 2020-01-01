@@ -13,7 +13,7 @@ import java.util.Date;
 public class Massage {
 
 
-   public class SendMassage {
+    class SendMassage {
 
         private String id;
         private String name;
@@ -35,6 +35,16 @@ public class Massage {
 
         System.out.println(sendMassage);
 
+    }
+
+
+    class SendMassage2 {
+
+        private String id; //111
+        private String name; //22
+        private String code; //33
+        private Date sendTime; //44
+        private String operId; //55
     }
 
 }
