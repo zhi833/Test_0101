@@ -19,12 +19,13 @@ public class Massage {
         private String name;
         private String code;
         private Date sendTime;
+        private String operId;
     }
 
 
     public static void main(String[] args) {
 
-        SendMassage sendMassage = new SendMassage() ;
+        SendMassage sendMassage = new SendMassage() ; //错误代码
 
         sendMassage.id = "13888888888";
         sendMassage.name = "zhangsan";
